@@ -1,0 +1,53 @@
+$orange: rgb(238,115,48);
+$yellow: rgb(245,202,70);
+$black: rgb(53,53,53);
+$beige: rgb(244,242,234);
+
+body {
+    background-color: $beige;
+}
+
+nav {
+    background-color: $orange;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.p-6 {
+    padding-left: 70px;
+}
+
+@mixin circle($size, $color, $display) {
+    display: $display;
+    width: $size;
+    height: $size;
+    color: $color;
+    border-radius: 50%;
+    border: $size*0.08 solid;
+    box-shadow: $size*0.06 $size*0.06 $size*0.06 darken($color, 20%) inset, $size*0.06 $size*0.06 $size*0.06 darken($color, 20%);
+}
+
+
+.circleOrange {
+    @include circle(50px, $orange, inline-block);
+}
+
+.circleYellow {
+    @include circle(170px, $yellow, inline-block);
+}
+
+.circleBlack {
+    @include circle(48px, $black, inline-block);
+}
+
+@for $i from 1 through 6 {
+    .circleBlack-#{$i} {
+          @include circle(48px, $black, inline-block);
+          width: 35px + $i * 10;
+          height: 35px + $i * 10;
+          margin-bottom: -$i*3px;
+          margin-left : -$i*2px-20;
+  }
+}

@@ -1,0 +1,129 @@
+body {
+    background-color: #f4f2ea;
+}
+
+nav {
+    background-color: #ee7330;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.p-6 {
+    padding-left: 70px;
+}
+
+.circleOrange {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #ee7330;
+    border-radius: 50%;
+    border: 4px solid;
+    box-shadow: 3px 3px 3px #aa450e inset, 3px 3px 3px #aa450e;
+}
+
+.circleYellow {
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    color: #f5ca46;
+    border-radius: 50%;
+    border: 13.6px solid;
+    box-shadow: 10.2px 10.2px 10.2px #ca9b0b inset, 10.2px 10.2px 10.2px #ca9b0b;
+}
+
+.circleBlack {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #353535;
+    border-radius: 50%;
+    border: 3.84px solid;
+    box-shadow: 2.88px 2.88px 2.88px #020202 inset, 2.88px 2.88px 2.88px #020202;
+}
+
+.circleBlack-1 {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #353535;
+    border-radius: 50%;
+    border: 3.84px solid;
+    box-shadow: 2.88px 2.88px 2.88px #020202 inset, 2.88px 2.88px 2.88px #020202;
+    width: 45px;
+    height: 45px;
+    margin-bottom: -3px;
+    margin-left: -22px;
+}
+
+.circleBlack-2 {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #353535;
+    border-radius: 50%;
+    border: 3.84px solid;
+    box-shadow: 2.88px 2.88px 2.88px #020202 inset, 2.88px 2.88px 2.88px #020202;
+    width: 55px;
+    height: 55px;
+    margin-bottom: -6px;
+    margin-left: -24px;
+}
+
+.circleBlack-3 {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #353535;
+    border-radius: 50%;
+    border: 3.84px solid;
+    box-shadow: 2.88px 2.88px 2.88px #020202 inset, 2.88px 2.88px 2.88px #020202;
+    width: 65px;
+    height: 65px;
+    margin-bottom: -9px;
+    margin-left: -26px;
+}
+
+.circleBlack-4 {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #353535;
+    border-radius: 50%;
+    border: 3.84px solid;
+    box-shadow: 2.88px 2.88px 2.88px #020202 inset, 2.88px 2.88px 2.88px #020202;
+    width: 75px;
+    height: 75px;
+    margin-bottom: -12px;
+    margin-left: -28px;
+}
+
+.circleBlack-5 {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #353535;
+    border-radius: 50%;
+    border: 3.84px solid;
+    box-shadow: 2.88px 2.88px 2.88px #020202 inset, 2.88px 2.88px 2.88px #020202;
+    width: 85px;
+    height: 85px;
+    margin-bottom: -15px;
+    margin-left: -30px;
+}
+
+.circleBlack-6 {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #353535;
+    border-radius: 50%;
+    border: 3.84px solid;
+    box-shadow: 2.88px 2.88px 2.88px #020202 inset, 2.88px 2.88px 2.88px #020202;
+    width: 95px;
+    height: 95px;
+    margin-bottom: -18px;
+    margin-left: -32px;
+}
